@@ -61,4 +61,16 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 #ejercicioSiete{ 
     display: flex;
     flex-flow: column-reverse wrap;
+    align-items: flex-end;
+}
+#elementoDos{
+    align-self: flex-start;
+}
+#elementoTres{
+    justify-content: center;
+    align-self: flex-end;
+}
+#elementoUno{
+    justify-content: center;
+    align-self:flex-end;
 }
